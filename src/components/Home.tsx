@@ -51,7 +51,7 @@ export function Home() {
       <Cursor />
       <Nav />
 
-      {/* HERO */}
+      
       <section ref={heroRef} className="relative h-screen min-h-[700px] overflow-hidden">
         <motion.div style={{ y: heroY, scale: heroScale }} className="absolute inset-0">
           <img src={heroImg} alt="Editorial portrait" className="h-full w-full object-cover" />
